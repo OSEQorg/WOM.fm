@@ -1,99 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>WOM.fm is an open platform for accessible audio information.</title>
 
-<head>
+ 
+    
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<style>
+	body {background-color:#2b3a42;color: #C1D3DD;}
+	a, a:hover {color: #FFF;text-decoration:none;}
+</style>
+
+  </head>
+  
+  <body>
+    
+<main>
 	
-	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1">
-	<meta name="theme-color" content="#2b3a42">
-	<script type="text/javascript" src="./resources/wom.js"></script>
-	<link rel="stylesheet" type="text/css" href="./resources/styles.css" />
+	<header class="d-flex flex-wrap justify-content-center px-3 pt-5 mb-4 ">
+      <a href="https://wom.fm" class="d-flex align-items-center mx-auto mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <img src="wom.svg" class="img-fluid" width=150 />
+      </a>
+      
 
-</head>
+    </header>
 
-<body>
-	
-	<header> </header>
-	
-	<div id="head">
-		<div id="logo"></div>
-	</div>
-	
-	
-	<div id="amplitude-player">
-		
-		<div class="time-container" dir="ltr"> <span class="current-time">
-             <span class="amplitude-current-time" amplitude-main-current-time="true"></span> </span>
-			<progress class="amplitude-song-played-progress" id="song-played-progress" amplitude-main-song-played-progress="true"></progress> <span class="duration">
-            <span class="amplitude-duration-time" amplitude-main-duration-time="true"></span> </span>
-		</div>
-		
-		<div id="amplitude-left">
-			<div id="player-left-bottom">
-				<div id="control-container">
-					<div id="central-control-container">
-						<div id="central-controls">
-							<div id="prev-container">
-								<div class="amplitude-prev" id="previous"></div>
-							</div>
-							<div id="play-pause-container">
-								<div class="amplitude-play-pause" amplitude-main-play-pause="true" id="play-pause"></div>
-							</div>
-							<div id="next-container">
-								<div class="amplitude-next" id="next"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="meta-container"> <span amplitude-song-info="name" id="song-name" amplitude-main-song-info="true"></span> </div>
-			</div>
-		</div>
-		
-		<div id="menu-container">
-			<div id="share" onclick="openShare()"></div>
-		</div>
-		
-	</div>
 
-	
-</body>
+  <div class="container px-4 py-0">
+	  
+	  <h1 class="display-5">About</h1>
+
+	  <p>WOM.fm is an open platform for accessible audio information. This is a project of the <a href="https://www.OSEQ.org" title = "Open Source for Equality" />Open Source for Equality</a>. Open Source for Equality is a global initiative to promote the development and use of free and open software that bridges the digital gender gap. </p>
+	  <p>WOM.fm can be used to make audio information accessible to marginalized populations using short urls (e.g. <a href="https://wom.fm/123/" title = "Open Source for Equality" />wom.fm/123</a>) and QR codes. It should also enable local developers and content creators to build and deploy their own web apps.</p>
+	  <p>For more information visit WOM.fm at <a href="https://www.oseq.org/wom/" title = "WOM.fm on Open Source for Equality" />Open Source for Equality</a> or on <a href="https://github.com/OSEQorg/WOM.fm" title = "WOM.fm on GitHub" />GitHub</a>.
+
+    </div>
+    
 
 
 
+  </main>
+  
+  <footer>
+	      
+	      <div class="container px-4 py-2">
+    <a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-color-bg.svg" alt="Deploys by Netlify" /> </a>
+	      </div>
+  </footer>
 
-<script id="rendered-js" type="text/javascript" src="./audio.js"></script>
 
-<script>
-function download(file) {
-	window.location = file;
-}
-</script>
-<script language="JavaScript">
-window.onkeydown = function(e) {
-	return !(e.keyCode == 32);
-};
+   <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-/*
-Handles a click on the song played progress bar.
-*/
-
-document.getElementById('song-played-progress').addEventListener('click', function(e) {
-	var offset = this.getBoundingClientRect();
-	var x = e.pageX - offset.left;
-	Amplitude.setSongPlayedPercentage((parseFloat(x) / parseFloat(this.offsetWidth)) * 100);
-});
-</script>
-
-<script language="JavaScript">
-var audiotitle = Amplitude.getActiveSongMetadata().name;
-var audiourl = window.location.href;
-openShare = async() => {
-	if(navigator.share) {
-		navigator.share({
-			title: audiotitle,
-			url: audiourl,
-		}).then(() => console.log('Successful share')).catch((error) => console.log('Error sharing', error));
-	}
-};
-</script>
-
+      
+  </body>
 </html>
