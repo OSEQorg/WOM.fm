@@ -5,4 +5,5 @@ WOM.fm can be used to make audio information accessible to marginalized populati
 
 For more information visit WOM.fm at [Open Source for Equality](https://www.oseq.org/wom).
 
-![WOMQR](https://user-images.githubusercontent.com/32398058/169304993-88353e16-a842-47f8-8ba0-79ab005eea5d.png)
+
+![WOMQR300](https://user-images.githubusercontent.com/32398058/169305192-70a66071-35b4-4108-8e41-736a88fbe7e7.png)
