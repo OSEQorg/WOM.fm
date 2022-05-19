@@ -3,6 +3,8 @@ WOM.fm is an open platform for accessible audio information. This is a project o
 
 WOM.fm can be used to make audio information accessible to marginalized populations using short urls (e.g. [wom.fm/123](https://wom.fm/123)) and QR codes. It should also enable local developers and content creators to build and deploy their own web apps. WOM.fm has been deployed to offer health education in a number of initiatives in Africa, Asia and Latin America.
 
+WOM.fm is based on the [Amplitude.js](https://github.com/serversideup/amplitudejs) Javascript library.
+
 For more information visit WOM.fm at [Open Source for Equality](https://www.oseq.org/wom).
 
 
