@@ -1,6 +1,6 @@
 # WOM.fm
 
-## An open platform for accessible audio information
+### An open platform for accessible audio information
 
 WOM.fm is an open platform for accessible audio information. This is a project of the Open Source for Equality. Open Source for Equality is a global initiative to promote the development and use of free and open software that bridges the digital gender gap.
 
