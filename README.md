@@ -8,4 +8,6 @@ WOM.fm is based on the open source [Amplitude.js](https://github.com/serversideu
 For more information visit WOM.fm at [Open Source for Equality](https://www.oseq.org/wom).
 
 
-![WOMQR300](https://user-images.githubusercontent.com/32398058/169305192-70a66071-35b4-4108-8e41-736a88fbe7e7.png)
+![WOmfmposter](https://user-images.githubusercontent.com/32398058/170046372-b090a174-84e2-4154-8720-1efef2261f3c.png)
+
+A Canva tempate for this poster is available at https://www.canva.com/design/DAFBnApBc6s/i4ixDr-T4vQO0hm5KcvjPA/
