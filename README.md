@@ -10,4 +10,4 @@ For more information visit WOM.fm at [Open Source for Equality](https://www.oseq
 
 ![WOmfmposter](https://user-images.githubusercontent.com/32398058/170046372-b090a174-84e2-4154-8720-1efef2261f3c.png)
 
-A template for this poster is available at [Canva](https://www.canva.com/design/DAFBnApBc6s/i4ixDr-T4vQO0hm5KcvjPA/view?utm_content=DAFBnApBc6s&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
+A template for this poster is available at [Canva](https://www.canva.com/design/DAFBnApBc6s/i4ixDr-T4vQO0hm5KcvjPA/view?utm_content=DAFBnApBc6s&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview).
