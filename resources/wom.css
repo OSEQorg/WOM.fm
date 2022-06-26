@@ -53,13 +53,13 @@ body {
 }
 
 a {
-	color: #5b437a;
+	color: #ccc;
 	text-decoration: none;
 	-webkit-tap-highlight-color:transparent
 }
 
 a:active {
-	color:#5b437a
+	color:#ccc
 }
 
 
@@ -106,15 +106,18 @@ div#share{
 	margin: auto;
 }
 
-div#qrcode{
-	width: 60px;
-	height: 60px;
-	cursor: pointer;
-	background: url('../img/qrcode.svg');
-	background-repeat: no-repeat;
-	float: left;
-	margin-left: 20px;
+div#source{
+	font-size: 12px;
+	text-align: center;
+	color:#ccc;
+	position:fixed;
+	   left:0px;
+	   bottom:0px;
+	   height:40px;
+	   width:100%;
 }
+
+
 
 div#prevtop{
 	display: inline-block;
