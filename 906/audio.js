@@ -1,30 +1,30 @@
 Amplitude.init({
    "songs":[
       {
-         "name":"What is GBV - Yoruba?",
-         "url":"./audio/What_is_GBV_yoruba.mp3",
-         "source": "South Saharan Social Development Organization",
-         "source_url": "https://southsaharan.org/"
-      },
-      {
-         "name":"What is GBV - Hausa?",
-         "url":"./audio/What_is_gender_base_violence_(Hausa).ogg",
-         "source": "South Saharan Social Development Organization",
-         "source_url": "https://southsaharan.org/"
-      },
-      {
          "name":"16 Days of Activism against GBV",
-         "url":"./audio/16_days_of_Activism_against_gender_base_violence(hausa).ogg",
+         "url":"./audio/01-16_days_of_activism_against_GBV_ex1csx.mp3",
          "source": "South Saharan Social Development Organization",
          "source_url": "https://southsaharan.org/"
       },
-
+      {
+         "name":"16 Days of Activism against GBV-Hausa",
+         "url":"./audio/02-16_days_of_Activism_against_gender_base_violence(hausa).mp3",
+         "source": "South Saharan Social Development Organization",
+         "source_url": "https://southsaharan.org/"
+      },
       {
          "name":"A Silent Crisis-Hausa",
-         "url":"./audio/a silent crisis(hausa).ogg",
+         "url":"./audio/03-a silent crisis(hausa).omp3",
          "source": "South Saharan Social Development Organization",
          "source_url": "https://southsaharan.org/"
       },
+      {
+         "name":"About SSDO - GBV Project",
+         "url":"./audio/04-About_SSDO_GBV_Project_yxpziu.mp3",
+         "source": "South Saharan Social Development Organization",
+         "source_url": "https://southsaharan.org/"
+      },
+     
       {
          "name":"Being Kind to yourself",
          "url":"./audio/Being_kind_to_yourself.mp3",
