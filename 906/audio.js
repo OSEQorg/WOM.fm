@@ -182,5 +182,53 @@ Amplitude.init({
          "source": "South Saharan Social Development Organization",
          "source_url": "https://southsaharan.org/"
       },
+      {
+         "name":"Providing Safe space for Survivors of GBV - Hausa",
+         "url":"./audio/31-providing-safe-space-for-survivors-of-gender-base-violence-(hausa).mp3",
+         "source": "South Saharan Social Development Organization",
+         "source_url": "https://southsaharan.org/"
+      },
+      {
+         "name":"Providing Safe space for Survivors of GBV",
+         "url":"./audio/33-Providing_Safe_Spaces_for_Survivors_of_GBV_e9hp7j.mp3",
+         "source": "South Saharan Social Development Organization",
+         "source_url": "https://southsaharan.org/"
+      },
+      {
+         "name":"GBV Stories: Protective Father - Igbo",
+         "url":"./audio/34-protective_father(igbo).mp3",
+         "source": "South Saharan Social Development Organization",
+         "source_url": "https://southsaharan.org/"
+      },
+      {
+         "name":"GBV Stories: Rape in the Dormitory-Yoruba",
+         "url":"./audio/35-rape in dormitory(yoruba).mp3",
+         "source": "South Saharan Social Development Organization",
+         "source_url": "https://southsaharan.org/"
+      },
+      {
+         "name":"Secondary Schools",
+         "url":"./audio/36-secondary_school_yodgys.mp3",
+         "source": "South Saharan Social Development Organization",
+         "source_url": "https://southsaharan.org/"
+      },
+      {
+         "name":"Solutions to GBV: UNICEF",
+         "url":"./audio/37-Solution_to_GBV_according_to_UNICEF_igftub.mp3",
+         "source": "South Saharan Social Development Organization",
+         "source_url": "https://southsaharan.org/"
+      },
+      {
+         "name":"Solutions to GBV: UNICEF - Igbo",
+         "url":"./audio/38-Solution to gbv according to UNICEF (igbo).mp3",
+         "source": "South Saharan Social Development Organization",
+         "source_url": "https://southsaharan.org/"
+      },
+      {
+         "name":"Solutions to GBV: UNICEF - Hausa",
+         "url":"./audio/39-Solutions_to_gender_base_violence_according_to_UNICEF(hausa).mp3",
+         "source": "South Saharan Social Development Organization",
+         "source_url": "https://southsaharan.org/"
+      },
    ]
 });
